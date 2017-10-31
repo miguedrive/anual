@@ -28,6 +28,15 @@ font-family: 'Calibri'
 
 }
 
+#img1 {
+width: 40%;
+height: 40%;
+text-align: center;
+
+}
+
+
+
 
 
 #back{ 
@@ -78,5 +87,6 @@ font-family: 'Calibri'
 	padding-top: 130px;
 	font-family: 'Open Sans';
 }
+
 
 
