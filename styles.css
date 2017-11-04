@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
 
-    background-image: url("fondo1.png");
+    background-image: url("fondo2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -21,10 +21,10 @@ h1 {
 
 h4 {
 	font-size: 40px;
-color: white;
-padding-top: 50px;
-padding-bottom: 30px;
-font-family: 'Calibri'
+	color: #f2f6ff;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-family: 'Calibri'
 
 }
 
@@ -35,13 +35,20 @@ text-align: center;
 
 }
 
+#titulo{
+
+
+
+}
+
+
 
 
 
 
 #back{ 
     /* The image used */
-    background-image: url("fondo_blur1.png");
+    background-image: url("fondo1.png");
 
     /* Full height */
     height: 100%; 
