@@ -9,6 +9,10 @@ body, html {
     background-size: cover;
 }
 
+.fuentes {
+    font-family: "Lobster";
+}
+
 
 
 h1 {
@@ -37,7 +41,9 @@ text-align: center;
 
 }
 
-
+.fuentes {
+    font-family: 'Open Sans';
+}
 
 
 
