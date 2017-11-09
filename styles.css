@@ -1,13 +1,15 @@
 body, html {
     height: 100%;
 
-    background-image: url("fondo2.png");
+    background-image: url("new_wall.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
     width: auto;
     background-size: cover;
 }
+
+
 
 h1 {
 	font-size: 72px;
@@ -21,7 +23,7 @@ h1 {
 
 h4 {
 	font-size: 40px;
-	color: #f2f6ff;
+	color: #909090;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family: 'Calibri'
@@ -35,11 +37,6 @@ text-align: center;
 
 }
 
-#titulo{
-
-
-
-}
 
 
 

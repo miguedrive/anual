@@ -9,9 +9,12 @@
 <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
 
-<!-- Bootstrap CSS -->
+<!-- Bootstrap JQuery Tether -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
@@ -55,141 +58,215 @@
 
 
 <!-- END -->
-<!-- Segundo bloque. Temas ? -->
+<!-- Segundo bloque. WOWJS -->
 <script>new WOW().init(); </script>
+
+
+
+<!-- Estilos extras -->
+
+<style type="text/css">
+.exp1 {cursor: pointer;}
+   
+
+</style>
+
+
 
 <div id="back2">
 	<div class="container">
 	
-		 <div class="wow fadeInUpBig"><img src="iso.png" style="text-align: center;padding-left: 450px; padding-top: 90px; width: 55%; height: 55%"> </div>
+		 <div class="wow fadeInUpBig"><img src="iso.png" style="text-align: center;padding-left: 438px; padding-top: 90px; width: 60%; height: 60%"> </div>
 
 		
 		<div class="wow fadeInUpBig" style="padding-top: 28px; padding-bottom: 28px; text-align: center;color: #f2f6ff">
 																				
 		<h4> INTRODUCCIÓN</h4> 
 		</div>
+
+  
 			
-		<div class="wow fadeInUpBig"><h4> EVOLUCIÓN DE CLIENTES</h4>
+		<div class="wow fadeInUpBig"> 
+            <h4 class="exp1" data-toggle="collapse" href="#evo"> EVOLUCIÓN DE CLIENTES</h4>
+                <div class="collapse" id="evo">
+
+                <!-- Así se agregan los íconos de cada sección, bajo un ROW nuevo -->
+                  <div class="row">
+                       <div  class="col-md-2" style="margin: auto" >
+                        <img src="EVOLUCION DE CLIENTES.png" width="300" height="300" > 
+                     </div>
+
+                  </div>
+                <!-- Fin de sección -->
+
+<!-- Así se agregan los distintos íconos, falta ponerle el href del archivo que se utilizará -->
+                 <div class="row">
+                     <div  class="col-md-2" >
+                        <img src="iso.png" width="100" height="100" > 
+                     </div>
+                     <div  class="col-md-2" >
+                        <img src="iso.png" width="100" height="100" > 
+                     </div>
+                     <div  class="col-md-2" >
+                        <img src="iso.png" width="100" height="100" > 
+                     </div>
+                     <div  class="col-md-2" >
+                        <img src="iso.png" width="100" height="100" > 
+                     </div>
+                     <div  class="col-md-2" >
+                        <img src="iso.png" width="100" height="100" > 
+                     </div>
+                 </div> 
+           
+         </div>
+     </div>
+    
+        <div class="wow fadeInUpBig"> 
+            <h4 class="exp1" data-toggle="collapse" href="#fact1"> FACTURACIÓN</h4>
+            <div class="collapse" id="fact1">
+            <div class="row">
+                <div class="col-md-2">
+                    
+                     <img src="iso.png" width="100" height="100"> 
+                </div>
+            </div>
+        </div></div>
+
+        <div class="wow fadeInUpBig">
+         <h4 class="exp1" data-toggle="collapse" href="#cobra"> COBRANZA</h4>
+            <div class="collapse" id="cobra">
 			<div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-        <div class="wow fadeInUpBig"> <h4> COBRANZA</h4>
+        </div></div>
+
+       
+
+        <div class="wow fadeInUpBig">
+            <h4 class="exp1" data-toggle="collapse" href="#com1"> COMERCIAL</h4>
+			<div class="collapse" id="com1">
+            <div class="row">
+				<div class="col-md-2">
+					
+        			 <img src="iso.png" width="100" height="100"> 
+                </div>
+            </div>
+        </div></div>
+
+        <div class="wow fadeInUpBig">
+            <h4 class="exp1" data-toggle="collapse" href="#gest1"> GESTIÓN OPERATIVA</h4>
+            <div class="collapse" id="gest1">
 			<div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> FACTURACIÓN</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig">
+        <h4 class="exp1" data-toggle="collapse" href="#redes"> REDES</h4>
+			<div class="collapse" id="redes">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-        <div class="wow fadeInUpBig"><h4> COMERCIAL</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig">
+     <h4 class="exp1" data-toggle="collapse" href="#it"> GESTIÓN IT</h4>
+			<div class="collapse" id="it">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-        <div class="wow fadeInUpBig"><h4> GESTIÓN OPERATIVA</h4>
-			<div class="row">
+        </div></div>
+
+        <div class="wow fadeInUpBig"><h4 class="exp1" data-toggle="collapse" href="#pro"> PROYECTOS</h4>
+			<div class="collapse" id="pro">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> REDES</h4>
-			<div class="row">
+        </div></div>
+
+        <div class="wow fadeInUpBig"><h4 class="exp1" data-toggle="collapse" href="#obra"> OBRA "NUEVA OFICINA"</h4>
+			<div class="collapse" id="obra">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> GESTIÓN IT</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig"> <h4 class="exp1" data-toggle="collapse" href="#grilla"> EVOLUCIÓN DE GRILLA</h4>
+			<div class="collapse" id="grilla">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-        <div class="wow fadeInUpBig"><h4> PROYECTOS</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig"> <h4 class="exp1" data-toggle="collapse" href="#gestiones"> GESTIONES</h4>
+			<div class="collapse" id="gestiones">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-        <div class="wow fadeInUpBig"><h4> OBRA "NUEVA OFICINA"</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig"> <h4 class="exp1" data-toggle="collapse" href="#edi1"> EDICIÓN, PUBLICIDAD y DESARROLLO</h4>
+			<div class="collapse" id="edi1">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> EVOLUCIÓN DE GRILLA</h4>
-			<div class="row">
+        </div></div>
+
+       <div class="wow fadeInUpBig"> <h4 class="exp1" data-toggle="collapse" href="#adm"> GESTIÓN ADMINISTRATIVA</h4>
+			<div class="collapse" id="adm">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> GESTIONES</h4>
-			<div class="row">
+        </div></div>
+
+        <div class="wow fadeInUpBig"><h4 class="exp1" data-toggle="collapse" href="#econ"> SITUACIÓN ECONÓMICO - FINANCIERA</h4>
+			<div class="collapse" id="econ">
+            <div class="row">
 				<div class="col-md-2">
 					
         			 <img src="iso.png" width="100" height="100"> 
                 </div>
             </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> EDICIÓN, PUBLICIDAD y DESARROLLO</h4>
-			<div class="row">
-				<div class="col-md-2">
-					
-        			 <img src="iso.png" width="100" height="100"> 
-                </div>
-            </div>
-        </div>
-       <div class="wow fadeInUpBig"> <h4> GESTIÓN ADMINISTRATIVA</h4>
-			<div class="row">
-				<div class="col-md-2">
-					
-        			 <img src="iso.png" width="100" height="100"> 
-                </div>
-            </div>
-        </div>
-        <div class="wow fadeInUpBig"><h4> SITUACIÓN ECONÓMICO - FINANCIERA</h4>
-			<div class="row">
-				<div class="col-md-2">
-					
-        			 <img src="iso.png" width="100" height="100"> 
-                </div>
-            </div>
-        </div>
+        </div></div>
 		
 
 
 
 
-	</div>
+
+
+    </div>
 </div>
-
-
 
 
 
